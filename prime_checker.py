@@ -21,6 +21,7 @@ def is_prime(n):
 
 
 def main():
+    print(1)
     primes = [n for n in range(1, 51) if is_prime(n)]
     print("Prime numbers between 1 and 50:")
     print(", ".join(map(str, primes)))
